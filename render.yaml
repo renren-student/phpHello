@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: php-hello
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    branch: main
+    rootDir: .
+    autoDeploy: true
